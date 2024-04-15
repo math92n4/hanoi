@@ -80,7 +80,6 @@ function solveTower() {
     const totalMoves = Math.pow(2, towerSize) - 1
     console.log(totalMoves)
 
-    // swap end with help if even
     if(towerSize % 2 === 0) {
         let temp = c
         c = b
